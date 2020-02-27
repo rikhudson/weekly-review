@@ -77,7 +77,6 @@ jobs:
             repo: context.repo.repo,
             issue_number: createPull.data.number,
             assignees: [
-              "manager-handle",
-              "ic-handle"
+              "rikhudon"
             ],
           });
